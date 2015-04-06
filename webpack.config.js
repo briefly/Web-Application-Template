@@ -8,7 +8,7 @@ var webpack = require('webpack'),
 module.exports = {
   entry: {
     vendor: [],
-    app: ['webpack-dev-server/client?http://0.0.0.0:3000','webpack/hot/only-dev-server','./lib/index.js']
+    app: ['webpack-dev-server/client?http://0.0.0.0:8080','webpack/hot/only-dev-server','./lib/index.js']
   },
   output: {
     path: './build',
