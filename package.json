@@ -1,0 +1,36 @@
+{
+  "name": "briefly-webapp",
+  "version": "1.0.0",
+  "description": "Briefly.io Web Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base build/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-loader": "^1.2.0",
+    "css-loader": "^0.9.1",
+    "expose-loader": "^0.6.0",
+    "flowcheck": "^0.2.3",
+    "flowcheck-loader": "^1.0.0",
+    "html-webpack-plugin": "^1.1.0",
+    "jsx-loader": "^0.13.1",
+    "node-sass": "^2.1.1",
+    "react": "^0.13.1",
+    "react-hot-loader": "^1.2.4",
+    "react-proxy-loader": "^0.3.3",
+    "rimraf": "^2.3.2",
+    "sass-loader": "^0.6.0",
+    "style-loader": "^0.9.0",
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.8.0"
+  },
+  "dependencies": {
+    "minimist": "^1.1.1",
+    "react": "^0.13.1",
+    "reflux": "^0.2.7"
+  }
+}

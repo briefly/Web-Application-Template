@@ -1,0 +1,8 @@
+# Do not include dependencies
+node_modules
+
+# Do not include webpack stats
+stats.json
+
+# Do not include IDE Specific info
+.idea
